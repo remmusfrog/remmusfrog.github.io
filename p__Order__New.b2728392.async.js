@@ -353,7 +353,7 @@ PERFORMANCE OF THIS SOFTWARE.
 `]))),U=n()(l||(l=Object(o.a)([`
   `,`
   query FindItem($query: OrderQueryInput!) {
-    orders(query: $query) {
+    orders(query: $query, sortBy: CREATE_TIME_DESC) {
       ...OrderFields
     }
   }
