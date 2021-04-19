@@ -150,13 +150,21 @@ PERFORMANCE OF THIS SOFTWARE.
     workshop
     unit
     packing
+    pictures {
+      key
+      name
+      type
+    }
+
     # unit {
     #   name
     #   code
     # }
+
     status
     create_time
     update_time
+    weight
     note
     size_type
     size_enable
@@ -198,6 +206,11 @@ PERFORMANCE OF THIS SOFTWARE.
     product_id {
       _id
       name
+      pictures {
+        key
+        name
+        type
+      }
       sku
     }
     quantity
