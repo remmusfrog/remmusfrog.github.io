@@ -209,6 +209,7 @@ PERFORMANCE OF THIS SOFTWARE.
     product_id {
       _id
       name
+      size_enable
       pictures {
         key
         name
